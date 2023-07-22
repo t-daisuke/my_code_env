@@ -6,8 +6,8 @@ def generate_output_file(input_file_path, output_file_path):
         out_file.write('teamNameItems: [\n')
         for name in team_names:
             out_file.write('    {\n')
-            out_file.write(f'      team_name: \'{name}\',\n')
-            out_file.write('      team_id: null,\n')
+            out_file.write(f'      text: \'{name}\',\n')
+            out_file.write(f'      value: \'{name}\',\n')
             out_file.write('    },\n')
         out_file.write('],\n')
 
