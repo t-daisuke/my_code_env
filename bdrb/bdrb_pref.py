@@ -13,5 +13,5 @@ def generate_output_file(input_file_path, output_file_path):
 
 # ファイルのパスを指定します。適宜変更してください。
 input_file_path = 'bdrb/in.txt'
-output_file_path = 'bdrbout.txt'
+output_file_path = 'bdrb/out.txt'
 generate_output_file(input_file_path, output_file_path)
