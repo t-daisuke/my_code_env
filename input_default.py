@@ -9,3 +9,6 @@ N=int(input())
 L=[]
 for _ in range(N):
     L.append[int(i) for i in input().split()]
+    
+import sys
+sys.setrecursionlimit(10**6)
